@@ -18,6 +18,8 @@ e qual duração de ciclo uma estação precisa para não ficar sem água no pio
 
 ## Arquivos
 
+Tudo fica na pasta [`agua_do_ar_dps/`](agua_do_ar_dps/):
+
 | Arquivo | Conteúdo |
 |---|---|
 | `agua_do_ar_dps.py` | Código completo, em células `# %%` (abre como notebook no VS Code) |
@@ -30,6 +32,7 @@ e qual duração de ciclo uma estação precisa para não ficar sem água no pio
 ## Como executar
 
 ```bash
+cd agua_do_ar_dps
 pip install -r requirements.txt
 python agua_do_ar_dps.py
 ```
