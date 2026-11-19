@@ -13,14 +13,11 @@ RM_1 = "571383"
 Nome_2 = "Enzo Abreu"
 RM_2 = "572995"
 
-Nome_3 = "Erick Nathan Capito"
-RM_3 = "573635"
+Nome_3 = "Henrique Bueno"
+RM_3 = "570591"
 
-Nome_4 = "Henrique Bueno"
-RM_4 = "570591"
-
-Nome_5 = "Murilo Gomes"
-RM_5 = "570941"
+Nome_4 = "Murilo Gomes"
+RM_4 = "570941"
 
 # %% [markdown]
 # ## Configuração

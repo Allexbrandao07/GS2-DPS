@@ -12,7 +12,6 @@ e qual duração de ciclo uma estação precisa para não ficar sem água no pio
 |---|---|
 | Állex Brandão | 571383 |
 | Enzo Abreu | 572995 |
-| Erick Nathan Capitó | 573635 |
 | Henrique Bueno | 570591 |
 | Murilo Gomes | 570941 |
 
@@ -50,26 +49,34 @@ Ou abra `agua_do_ar_dps.ipynb` e execute todas as células. O código não acess
 
 ## Uso de Inteligência Artificial
 
-Usamos o Claude (Anthropic), pelo Claude Code no VS Code, como ferramenta de apoio neste entregável.
+Usamos o Claude (Anthropic), pelo Claude Code no VS Code, como ferramenta de apoio na execução deste
+entregável. A condução do trabalho e as decisões foram do grupo, com Állex Brandão à frente.
 
-**Partes do grupo**
+**Decisões do grupo**
 
-- O projeto Água do Ar (problema, cidadão atendido, solução e territórios), que é a base de toda a modelagem.
-- A direção do trabalho: aplicar limites, derivadas e integrais ao projeto, seguir o material das aulas 12 a 19
-  e incluir uma regressão simples treinada com dados públicos.
-- As decisões de escopo e formato:
-  - usar Petrolina para o Semiárido;
-  - entregar um único `.py` e um `.ipynb`, só em Python;
-  - manter o código enxuto e as explicações no relatório;
-  - aplicar a identidade visual do projeto;
-  - substituir ferramentas que não foram vistas em aula.
+- **Base do trabalho.** O projeto Água do Ar (problema, cidadão atendido, solução e territórios) é nosso e
+  orientou toda a modelagem.
+- **Direção matemática.** Exigimos que o trabalho aplicasse limites, derivadas, taxas de variação e integrais
+  ao projeto, ficando dentro do conteúdo das aulas 12 a 19. Também definimos incluir uma regressão simples,
+  treinada com dados públicos.
+- **Modelagem.** Avaliamos a proposta de modelos e aprovamos a cadeia final: MOF, ciclo ótimo, simulador
+  mensal, dia típico e reservatório.
+- **Dados.** Escolhemos usar o INMET, com Petrolina como estação do Semiárido.
+- **Conformidade com as aulas.** Pedimos a conferência de cada técnica contra o material da disciplina. Também
+  pedimos a troca do que não foi visto em aula (função W de Lambert, bisseção e função de Heaviside) por
+  métodos estudados.
+- **Formato.** Definimos:
+  - um único `.py` e um `.ipynb`, só em Python, sem GeoGebra;
+  - código apenas com comentários de guia;
+  - explicações concentradas no relatório;
+  - identidade visual do projeto no PDF;
+  - README na raiz do repositório.
 
-**Partes da IA**
+**Onde a IA ajudou**
 
-- Propor a cadeia de modelos (isoterma, ciclo ótimo, simulador mensal, regressão harmônica e reservatório), a
-  partir do documento do projeto e do material das aulas.
-- Escrever o código, baixar e tratar os dados do INMET e gerar os gráficos.
-- Redigir o relatório técnico.
+- Sugerir a formulação dos modelos a partir das nossas diretrizes.
+- Implementar o código, baixar e tratar os dados do INMET e gerar os gráficos.
+- Redigir o relatório técnico a partir dos resultados.
 
 **Como os resultados foram conferidos.** O próprio código confere cada resultado por um segundo caminho
 independente:
